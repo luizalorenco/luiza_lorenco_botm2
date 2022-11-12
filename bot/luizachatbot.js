@@ -7,7 +7,7 @@ const bot = new Telegraf(env.token)
 
 bot.start(async ctx => {
   const from = ctx.update.message.from
-  if (from.id !=  '1450408708') {
+  if (from.id !=  '1351450134') {
     ctx.reply(
       `Saia daqui ${from.first_name}. Você não é a Luiza nem o professor Emerson!`
     )
@@ -373,7 +373,7 @@ bot.hears(['mascote 1966', 'Mascote 1966', 'MASCOTE 1966'], ctx => {
    
   bot.hears(['mascote 2014', 'Mascote 2014', 'MASCOTE 2014'], ctx => {
     ctx.replyWithPhoto(
-        'http://conteudo.imguol.com.br/2012/12/14/tatu-bola-mascote-da-copa-1352910294857_300x300.jpg' , {
+        'https://upload.wikimedia.org/wikipedia/pt/b/bf/Mascote_Copa.png' , {
        caption: '2014: Fuleco'
     })
     }) 
